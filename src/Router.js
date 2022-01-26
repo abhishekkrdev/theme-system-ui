@@ -9,8 +9,6 @@ import Navbar from './components/layout/Navbar';
 import AppContext from './context/AppContext';
 
 function Router() {
-  const { loggedIn } = useContext(AppContext);
-
   return (
     <BrowserRouter>
       <Navbar />

@@ -6,7 +6,7 @@ import AppContext from '../../context/AppContext';
 
 const Home = () => {
   const history = useHistory();
-  const { loggedIn, theme } = useContext(AppContext);
+  const { loggedIn } = useContext(AppContext);
 
   if (!loggedIn) {
     history.push('/login');
