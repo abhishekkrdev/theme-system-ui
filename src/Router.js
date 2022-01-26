@@ -1,12 +1,10 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Home from './components/home/Home';
 import Navbar from './components/layout/Navbar';
-
-import AppContext from './context/AppContext';
 
 function Router() {
   return (
